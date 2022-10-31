@@ -1,0 +1,22 @@
+.list-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.list-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff33;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  margin: 10px;
+}
+.team-img {
+  width: 150px;
+  height: 150px;
+}
+.team-text {
+  color: #ffffff;
+  font-family: 'Bree Serif';
+  font-weight: 800;
+}

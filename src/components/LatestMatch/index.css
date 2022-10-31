@@ -1,0 +1,53 @@
+.latestMatchBg1 {
+  width: 100%;
+  background-color: #0f172a;
+  border-radius: 12px;
+  padding: 25px;
+
+  font-family: Bree Serif;
+  color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardLeft {
+  width: 30%;
+}
+
+.teamLogo {
+  width: 20%;
+}
+
+.cardRight {
+  width: 30%;
+  text-align: right;
+}
+
+@media not screen and (min-width: 768px) {
+  .latestMatchBg1 {
+    flex-wrap: wrap;
+  }
+  .cardLeft {
+    width: 70%;
+    font-size: 10px;
+  }
+
+  .heading1 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .teamLogo {
+    width: 30%;
+  }
+  .cardRight {
+    width: 100%;
+    text-align: left;
+    font-size: 10px;
+    border-style: solid;
+    border-width: 0px;
+    border-top-width: 1px;
+    border-color: #ffffff;
+  }
+}
